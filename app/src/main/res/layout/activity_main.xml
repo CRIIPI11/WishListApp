@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list"
         android:layout_width="match_parent"
@@ -16,7 +17,7 @@
         app:layout_constraintBottom_toTopOf="@+id/name"
         tools:layout_editor_absoluteX="1dp" />
 
-    
+
     <EditText
         android:id="@+id/name"
         android:layout_width="115dp"

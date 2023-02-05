@@ -25,6 +25,7 @@
         android:layout_height="21dp"
         android:layout_marginEnd="4dp"
         android:text="TextView"
+        android:textSize="12dp"
         app:layout_constraintBottom_toTopOf="@id/itemlink"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

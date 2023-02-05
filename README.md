@@ -1,4 +1,4 @@
-# Android Project 2 - *Name of App Here*
+# Android Project 2 - *Wish List App*
 
 Submitted by: Cristhian Molina
 
@@ -10,8 +10,8 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 git 
-- [ ] **User can add an item to their wishlist**
-- [ ] **User can see their list of items based on previously inputted items**
+- [x] **User can add an item to their wishlist**
+- [x] **User can see their list of items based on previously inputted items**
 
 The following **optional** features are implemented:
 
