@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         val price = findViewById<EditText>(R.id.price)
         val link = findViewById<EditText>(R.id.shoplink)
         val adapter = Adapter(items)
-        val item = R.layout.item
 
         recyclerview.adapter = adapter
         recyclerview.layoutManager = LinearLayoutManager(this)
@@ -28,7 +27,12 @@ class MainActivity : AppCompatActivity() {
 
             val item = Item(name.text.toString(),price.text.toString(),link.text.toString())
             items.add(item)
+            name.text.clear()
+            price.text.clear()
+            link.text.clear()
             adapter.notifyDataSetChanged()
         }
+
+
     }
 }
